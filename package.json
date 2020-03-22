@@ -1,0 +1,33 @@
+{
+  "name": "react-use-bool",
+  "description": "Simple boolean hooks",
+  "version": "1.0.0",
+  "license": "WTFPL",
+  "author": "farwayer <farwayer@gmail.com>",
+  "repository": "farwayer/react-use-bool",
+  "keywords": [
+    "react",
+    "hooks",
+    "use",
+    "bool",
+    "boolean",
+    "toogle"
+  ],
+  "scripts": {
+    "prepack": "yarn cjs && yarn esm",
+    "cjs": "babel --out-file index.cjs.js index.js",
+    "esm": "ESM=1 babel --out-file index.esm.js index.js"
+  },
+  "type": "module",
+  "main": "index.cjs.js",
+  "module": "index.esm.js",
+  "react-native": "index.js",
+  "peerDependencies": {
+    "react": ">=16.8"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0"
+  }
+}
