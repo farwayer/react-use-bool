@@ -7,7 +7,7 @@ _Simple React boolean hooks_
 ## How to use
 
 ```bash
-react-use-bool
+yarn add react-use-bool
 ```
 
 ```js
