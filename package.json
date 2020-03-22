@@ -1,6 +1,6 @@
 {
   "name": "react-use-bool",
-  "description": "Simple boolean hooks",
+  "description": "Simple React boolean hooks",
   "version": "1.0.0",
   "license": "WTFPL",
   "author": "farwayer <farwayer@gmail.com>",
